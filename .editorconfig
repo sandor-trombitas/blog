@@ -1,0 +1,11 @@
+# top-most EditorConfig file
+root = true
+
+# 2 spaces indentation
+[*]
+indent_style = space
+indent_size = 2
+
+# Change `max_line_length` to your preference
+[*.md]
+trim_trailing_whitespace = true
