@@ -2,7 +2,7 @@
 const today = new Date();
 ---
 
-<footer>
+<footer class="full">
   &copy; {today.getFullYear()} Trombitas I. Sandor. All rights reserved.
   <div class='social-links'>
     <a href='https://github.com/sandor-trombitas' target='_blank'>
@@ -23,8 +23,9 @@ const today = new Date();
 </footer>
 <style>
   footer {
+    margin-top: auto;
     padding: 2em 1em 6em 1em;
-    background: linear-gradient(var(--gray-gradient)) no-repeat;
+    background-color: var(--secondary);
     color: rgb(var(--gray));
     text-align: center;
   }
